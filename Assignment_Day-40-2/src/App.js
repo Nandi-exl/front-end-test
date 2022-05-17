@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import GetSection from "./components/GetSection/view";
 import PostSection from "./components/PostSection/view";
+import Api from "./components/api/api";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <h3>React Axios example - netlify</h3>
       <GetSection />
       <PostSection />
+      <Api />
     </div>
   );
 }
